@@ -224,5 +224,10 @@ namespace Gvendas.pt.com.Gvendas.VIEWS
                 }
             }
         }
+
+        private void labelId_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

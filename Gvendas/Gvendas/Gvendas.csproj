@@ -48,7 +48,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.8\System.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -67,8 +69,6 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="pt.com.Gvendas.CONEXAO\SQLClientes.cs" />
-    <Compile Include="pt.com.Gvendas.CONEXAO\SQLEncomendas.cs" />
-    <Compile Include="pt.com.Gvendas.CONEXAO\SQLFuncionarios.cs" />
     <Compile Include="pt.com.Gvendas.DAO\SQL\SqLConnection.cs" />
     <Compile Include="pt.com.Gvendas.MODEL\Cliente.cs" />
     <Compile Include="pt.com.Gvendas.VIEWS\FormClientes.cs">
@@ -79,34 +79,11 @@
     </Compile>
     <Compile Include="pt.com.Gvendas.MODEL\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="pt.com.Gvendas.MODEL\Encomendas.cs" />
-    <Compile Include="pt.com.Gvendas.MODEL\Fornecedor.cs" />
-    <Compile Include="pt.com.Gvendas.MODEL\Funcionarios.cs" />
-    <Compile Include="pt.com.Gvendas.MODEL\Pagamento.cs" />
-    <Compile Include="pt.com.Gvendas.MODEL\Produtos.cs" />
-    <Compile Include="pt.com.Gvendas.VIEWS\FormEncomendas.cs">
+    <Compile Include="pt.com.Gvendas.VIEWS\FormEscolhaGestão.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="pt.com.Gvendas.VIEWS\FormEncomendas.Designer.cs">
-      <DependentUpon>FormEncomendas.cs</DependentUpon>
-    </Compile>
-    <Compile Include="pt.com.Gvendas.VIEWS\FormEscolhaManipulacao.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="pt.com.Gvendas.VIEWS\FormEscolhaManipulacao.Designer.cs">
-      <DependentUpon>FormEscolhaManipulacao.cs</DependentUpon>
-    </Compile>
-    <Compile Include="pt.com.Gvendas.VIEWS\FormFornecedores.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="pt.com.Gvendas.VIEWS\FormFornecedores.Designer.cs">
-      <DependentUpon>FormFornecedores.cs</DependentUpon>
-    </Compile>
-    <Compile Include="pt.com.Gvendas.VIEWS\FormFuncionarios.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="pt.com.Gvendas.VIEWS\FormFuncionarios.Designer.cs">
-      <DependentUpon>FormFuncionarios.cs</DependentUpon>
+    <Compile Include="pt.com.Gvendas.VIEWS\FormEscolhaGestão.Designer.cs">
+      <DependentUpon>FormEscolhaGestão.cs</DependentUpon>
     </Compile>
     <Compile Include="pt.com.Gvendas.VIEWS\FormHome.cs">
       <SubType>Form</SubType>
@@ -120,23 +97,11 @@
     <Compile Include="pt.com.Gvendas.VIEWS\FormListClientes.Designer.cs">
       <DependentUpon>FormListClientes.cs</DependentUpon>
     </Compile>
-    <Compile Include="pt.com.Gvendas.VIEWS\FormManipularDados.cs">
+    <Compile Include="pt.com.Gvendas.VIEWS\FormGerirDados.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="pt.com.Gvendas.VIEWS\FormManipularDados.Designer.cs">
-      <DependentUpon>FormManipularDados.cs</DependentUpon>
-    </Compile>
-    <Compile Include="pt.com.Gvendas.VIEWS\FormPagamento.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="pt.com.Gvendas.VIEWS\FormPagamento.Designer.cs">
-      <DependentUpon>FormPagamento.cs</DependentUpon>
-    </Compile>
-    <Compile Include="pt.com.Gvendas.VIEWS\FormProdutos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="pt.com.Gvendas.VIEWS\FormProdutos.Designer.cs">
-      <DependentUpon>FormProdutos.cs</DependentUpon>
+    <Compile Include="pt.com.Gvendas.VIEWS\FormGerirDados.Designer.cs">
+      <DependentUpon>FormGerirDados.cs</DependentUpon>
     </Compile>
     <Compile Include="pt.com.Gvendas.VIEWS\FormUpdateDelete.cs">
       <SubType>Form</SubType>
@@ -152,17 +117,8 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="pt.com.Gvendas.VIEWS\FormEncomendas.resx">
-      <DependentUpon>FormEncomendas.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="pt.com.Gvendas.VIEWS\FormEscolhaManipulacao.resx">
-      <DependentUpon>FormEscolhaManipulacao.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="pt.com.Gvendas.VIEWS\FormFornecedores.resx">
-      <DependentUpon>FormFornecedores.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="pt.com.Gvendas.VIEWS\FormFuncionarios.resx">
-      <DependentUpon>FormFuncionarios.cs</DependentUpon>
+    <EmbeddedResource Include="pt.com.Gvendas.VIEWS\FormEscolhaGestão.resx">
+      <DependentUpon>FormEscolhaGestão.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="pt.com.Gvendas.VIEWS\FormHome.resx">
       <DependentUpon>FormHome.cs</DependentUpon>
@@ -170,14 +126,8 @@
     <EmbeddedResource Include="pt.com.Gvendas.VIEWS\FormListClientes.resx">
       <DependentUpon>FormListClientes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="pt.com.Gvendas.VIEWS\FormManipularDados.resx">
-      <DependentUpon>FormManipularDados.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="pt.com.Gvendas.VIEWS\FormPagamento.resx">
-      <DependentUpon>FormPagamento.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="pt.com.Gvendas.VIEWS\FormProdutos.resx">
-      <DependentUpon>FormProdutos.cs</DependentUpon>
+    <EmbeddedResource Include="pt.com.Gvendas.VIEWS\FormGerirDados.resx">
+      <DependentUpon>FormGerirDados.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="pt.com.Gvendas.VIEWS\FormUpdateDelete.resx">
       <DependentUpon>FormUpdateDelete.cs</DependentUpon>
@@ -208,9 +158,8 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\JDB.png" />
+    <Folder Include="Resources\" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>

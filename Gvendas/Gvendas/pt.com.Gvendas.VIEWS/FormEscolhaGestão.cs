@@ -5,9 +5,9 @@ using System.Windows.Forms;
 
 namespace Gvendas.pt.com.Gvendas.VIEWS
 {
-    public partial class FormEscolhaManipulacao : Form
+    public partial class FormEscolhaGestão : Form
     {
-        public FormEscolhaManipulacao()
+        public FormEscolhaGestão()
         {
             InitializeComponent();
         }
@@ -27,25 +27,10 @@ namespace Gvendas.pt.com.Gvendas.VIEWS
              
 
         }
-        private void buttonProdutos_Click(object sender, EventArgs e)
-        {
-            FormProdutos form = new FormProdutos();
-
-            form.ShowDialog();
-             
-
-        }
 
         private void buttonFornecedores_Click_1(object sender, EventArgs e)
         {
             FormFornecedores form = new FormFornecedores();
-            form.ShowDialog();
-             
-        }
-
-        private void buttonEncomendas_Click(object sender, EventArgs e)
-        {
-            FormEncomendas form = new FormEncomendas();
             form.ShowDialog();
              
         }

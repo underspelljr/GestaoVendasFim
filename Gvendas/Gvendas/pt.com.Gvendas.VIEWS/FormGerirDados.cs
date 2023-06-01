@@ -3,16 +3,16 @@ using System.Windows.Forms;
 
 namespace Gvendas.pt.com.Gvendas.VIEWS
 {
-    public partial class FormManipularDados : Form
+    public partial class FormGerirDados : Form
     {
-        public FormManipularDados()
+        public FormGerirDados()
         {
             InitializeComponent();
         }
 
         private void buttonAdicionar_Click(object sender, EventArgs e)
         {
-            FormEscolhaManipulacao form = new FormEscolhaManipulacao();
+            FormEscolhaGestão form = new FormEscolhaGestão();
             form.ShowDialog();
              
         }

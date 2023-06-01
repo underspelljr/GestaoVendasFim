@@ -100,13 +100,6 @@ namespace Gvendas
             form.ShowDialog();
 
         }
-        private void buttonProdutos_Click(object sender, EventArgs e)
-        {
-            pt.com.Gvendas.VIEWS.FormProdutos form = new pt.com.Gvendas.VIEWS.FormProdutos();
-
-            form.ShowDialog();
-
-        }
 
         private void buttonFornecedores_Click(object sender, EventArgs e)
         {
@@ -120,16 +113,10 @@ namespace Gvendas
             form.ShowDialog();
         }
 
-        private void buttonEncomendas_Click(object sender, EventArgs e)
+        private void homebutton_Click(object sender, EventArgs e)
         {
-            pt.com.Gvendas.VIEWS.FormEncomendas form = new pt.com.Gvendas.VIEWS.FormEncomendas();
-            form.ShowDialog();
-        }
-
-        private void buttonHome_Click(object sender, EventArgs e)
-        {
-            FormHome form = new FormHome();
-            form.ShowDialog();
+                FormHome form = new FormHome();
+                form.ShowDialog();
         }
     }
 }

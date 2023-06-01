@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewGroup listViewGroup5 = new System.Windows.Forms.ListViewGroup("ListViewGroup", System.Windows.Forms.HorizontalAlignment.Left);
+            System.Windows.Forms.ListViewGroup listViewGroup4 = new System.Windows.Forms.ListViewGroup("ListViewGroup", System.Windows.Forms.HorizontalAlignment.Left);
             this.textBoxId = new System.Windows.Forms.TextBox();
             this.buttonProcurar = new System.Windows.Forms.Button();
             this.buttonEditar = new System.Windows.Forms.Button();
@@ -53,7 +53,7 @@
             // 
             // textBoxId
             // 
-            this.textBoxId.Location = new System.Drawing.Point(233, 47);
+            this.textBoxId.Location = new System.Drawing.Point(458, 279);
             this.textBoxId.Name = "textBoxId";
             this.textBoxId.Size = new System.Drawing.Size(100, 20);
             this.textBoxId.TabIndex = 0;
@@ -114,14 +114,14 @@
             this.columnHeader3,
             this.columnHeader4,
             this.columnHeader5});
-            listViewGroup5.Header = "ListViewGroup";
-            listViewGroup5.Name = "listViewGroup1";
+            listViewGroup4.Header = "ListViewGroup";
+            listViewGroup4.Name = "listViewGroup1";
             this.listView2.Groups.AddRange(new System.Windows.Forms.ListViewGroup[] {
-            listViewGroup5});
+            listViewGroup4});
             this.listView2.HideSelection = false;
-            this.listView2.Location = new System.Drawing.Point(12, 267);
+            this.listView2.Location = new System.Drawing.Point(12, 12);
             this.listView2.Name = "listView2";
-            this.listView2.Size = new System.Drawing.Size(555, 118);
+            this.listView2.Size = new System.Drawing.Size(555, 222);
             this.listView2.TabIndex = 31;
             this.listView2.UseCompatibleStateImageBehavior = false;
             this.listView2.View = System.Windows.Forms.View.Details;
@@ -129,7 +129,7 @@
             // textBoxMorada
             // 
             this.textBoxMorada.BackColor = System.Drawing.Color.Gainsboro;
-            this.textBoxMorada.Location = new System.Drawing.Point(448, 173);
+            this.textBoxMorada.Location = new System.Drawing.Point(449, 342);
             this.textBoxMorada.Name = "textBoxMorada";
             this.textBoxMorada.Size = new System.Drawing.Size(100, 20);
             this.textBoxMorada.TabIndex = 39;
@@ -137,7 +137,7 @@
             // textBoxEmail
             // 
             this.textBoxEmail.BackColor = System.Drawing.Color.Gainsboro;
-            this.textBoxEmail.Location = new System.Drawing.Point(311, 173);
+            this.textBoxEmail.Location = new System.Drawing.Point(308, 342);
             this.textBoxEmail.Name = "textBoxEmail";
             this.textBoxEmail.Size = new System.Drawing.Size(100, 20);
             this.textBoxEmail.TabIndex = 38;
@@ -145,7 +145,7 @@
             // textBoxTelefone
             // 
             this.textBoxTelefone.BackColor = System.Drawing.Color.Gainsboro;
-            this.textBoxTelefone.Location = new System.Drawing.Point(174, 170);
+            this.textBoxTelefone.Location = new System.Drawing.Point(175, 342);
             this.textBoxTelefone.Name = "textBoxTelefone";
             this.textBoxTelefone.Size = new System.Drawing.Size(100, 20);
             this.textBoxTelefone.TabIndex = 37;
@@ -153,7 +153,7 @@
             // textBoxNome
             // 
             this.textBoxNome.BackColor = System.Drawing.Color.Gainsboro;
-            this.textBoxNome.Location = new System.Drawing.Point(37, 170);
+            this.textBoxNome.Location = new System.Drawing.Point(38, 342);
             this.textBoxNome.Name = "textBoxNome";
             this.textBoxNome.Size = new System.Drawing.Size(100, 20);
             this.textBoxNome.TabIndex = 36;
@@ -162,7 +162,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(446, 145);
+            this.label3.Location = new System.Drawing.Point(446, 322);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(60, 17);
             this.label3.TabIndex = 35;
@@ -172,7 +172,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(172, 145);
+            this.label2.Location = new System.Drawing.Point(172, 322);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(68, 17);
             this.label2.TabIndex = 34;
@@ -182,7 +182,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(309, 145);
+            this.label1.Location = new System.Drawing.Point(305, 322);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(46, 17);
             this.label1.TabIndex = 33;
@@ -192,7 +192,7 @@
             // 
             this.labelNome.AutoSize = true;
             this.labelNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelNome.Location = new System.Drawing.Point(35, 145);
+            this.labelNome.Location = new System.Drawing.Point(35, 322);
             this.labelNome.Name = "labelNome";
             this.labelNome.Size = new System.Drawing.Size(49, 17);
             this.labelNome.TabIndex = 32;
@@ -200,34 +200,35 @@
             // 
             // buttonConfirmUpdate
             // 
-            this.buttonConfirmUpdate.BackColor = System.Drawing.Color.Gray;
+            this.buttonConfirmUpdate.BackColor = System.Drawing.Color.Brown;
             this.buttonConfirmUpdate.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.buttonConfirmUpdate.FlatAppearance.BorderSize = 2;
             this.buttonConfirmUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonConfirmUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonConfirmUpdate.ForeColor = System.Drawing.Color.White;
-            this.buttonConfirmUpdate.Location = new System.Drawing.Point(218, 209);
+            this.buttonConfirmUpdate.Location = new System.Drawing.Point(24, 253);
             this.buttonConfirmUpdate.Name = "buttonConfirmUpdate";
             this.buttonConfirmUpdate.Size = new System.Drawing.Size(128, 39);
             this.buttonConfirmUpdate.TabIndex = 40;
-            this.buttonConfirmUpdate.Text = "Confirmar Editar";
+            this.buttonConfirmUpdate.Text = "Editar";
             this.buttonConfirmUpdate.UseVisualStyleBackColor = false;
             this.buttonConfirmUpdate.Click += new System.EventHandler(this.buttonConfirmUpdate_Click);
             // 
             // labelId
             // 
             this.labelId.AutoSize = true;
-            this.labelId.Location = new System.Drawing.Point(208, 50);
+            this.labelId.Location = new System.Drawing.Point(415, 282);
             this.labelId.Name = "labelId";
             this.labelId.Size = new System.Drawing.Size(19, 13);
             this.labelId.TabIndex = 41;
             this.labelId.Text = "Id:";
+            this.labelId.Click += new System.EventHandler(this.labelId_Click);
             // 
             // FormUpdateDelete
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.BlanchedAlmond;
             this.ClientSize = new System.Drawing.Size(579, 397);
             this.Controls.Add(this.labelId);
             this.Controls.Add(this.buttonConfirmUpdate);
