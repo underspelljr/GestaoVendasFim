@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.ListViewGroup listViewGroup4 = new System.Windows.Forms.ListViewGroup("ListViewGroup", System.Windows.Forms.HorizontalAlignment.Left);
+            System.Windows.Forms.ListViewGroup listViewGroup2 = new System.Windows.Forms.ListViewGroup("ListViewGroup", System.Windows.Forms.HorizontalAlignment.Left);
             this.textBoxId = new System.Windows.Forms.TextBox();
             this.buttonProcurar = new System.Windows.Forms.Button();
             this.buttonEditar = new System.Windows.Forms.Button();
@@ -53,20 +53,21 @@
             // 
             // textBoxId
             // 
-            this.textBoxId.Location = new System.Drawing.Point(458, 279);
+            this.textBoxId.BackColor = System.Drawing.Color.GhostWhite;
+            this.textBoxId.Location = new System.Drawing.Point(449, 279);
             this.textBoxId.Name = "textBoxId";
             this.textBoxId.Size = new System.Drawing.Size(100, 20);
             this.textBoxId.TabIndex = 0;
             // 
             // buttonProcurar
             // 
-            this.buttonProcurar.BackColor = System.Drawing.Color.Gray;
+            this.buttonProcurar.BackColor = System.Drawing.Color.Brown;
             this.buttonProcurar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.buttonProcurar.FlatAppearance.BorderSize = 2;
             this.buttonProcurar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonProcurar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonProcurar.ForeColor = System.Drawing.Color.White;
-            this.buttonProcurar.Location = new System.Drawing.Point(72, 89);
+            this.buttonProcurar.Location = new System.Drawing.Point(24, 188);
             this.buttonProcurar.Name = "buttonProcurar";
             this.buttonProcurar.Size = new System.Drawing.Size(80, 39);
             this.buttonProcurar.TabIndex = 28;
@@ -76,13 +77,13 @@
             // 
             // buttonEditar
             // 
-            this.buttonEditar.BackColor = System.Drawing.Color.Gray;
+            this.buttonEditar.BackColor = System.Drawing.Color.Brown;
             this.buttonEditar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.buttonEditar.FlatAppearance.BorderSize = 2;
             this.buttonEditar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonEditar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonEditar.ForeColor = System.Drawing.Color.White;
-            this.buttonEditar.Location = new System.Drawing.Point(244, 89);
+            this.buttonEditar.Location = new System.Drawing.Point(235, 188);
             this.buttonEditar.Name = "buttonEditar";
             this.buttonEditar.Size = new System.Drawing.Size(80, 39);
             this.buttonEditar.TabIndex = 29;
@@ -92,13 +93,13 @@
             // 
             // buttonRemover
             // 
-            this.buttonRemover.BackColor = System.Drawing.Color.Gray;
+            this.buttonRemover.BackColor = System.Drawing.Color.Brown;
             this.buttonRemover.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.buttonRemover.FlatAppearance.BorderSize = 2;
             this.buttonRemover.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonRemover.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonRemover.ForeColor = System.Drawing.Color.White;
-            this.buttonRemover.Location = new System.Drawing.Point(418, 89);
+            this.buttonRemover.Location = new System.Drawing.Point(449, 188);
             this.buttonRemover.Name = "buttonRemover";
             this.buttonRemover.Size = new System.Drawing.Size(80, 39);
             this.buttonRemover.TabIndex = 30;
@@ -114,21 +115,21 @@
             this.columnHeader3,
             this.columnHeader4,
             this.columnHeader5});
-            listViewGroup4.Header = "ListViewGroup";
-            listViewGroup4.Name = "listViewGroup1";
+            listViewGroup2.Header = "ListViewGroup";
+            listViewGroup2.Name = "listViewGroup1";
             this.listView2.Groups.AddRange(new System.Windows.Forms.ListViewGroup[] {
-            listViewGroup4});
+            listViewGroup2});
             this.listView2.HideSelection = false;
             this.listView2.Location = new System.Drawing.Point(12, 12);
             this.listView2.Name = "listView2";
-            this.listView2.Size = new System.Drawing.Size(555, 222);
+            this.listView2.Size = new System.Drawing.Size(546, 152);
             this.listView2.TabIndex = 31;
             this.listView2.UseCompatibleStateImageBehavior = false;
             this.listView2.View = System.Windows.Forms.View.Details;
             // 
             // textBoxMorada
             // 
-            this.textBoxMorada.BackColor = System.Drawing.Color.Gainsboro;
+            this.textBoxMorada.BackColor = System.Drawing.Color.White;
             this.textBoxMorada.Location = new System.Drawing.Point(449, 342);
             this.textBoxMorada.Name = "textBoxMorada";
             this.textBoxMorada.Size = new System.Drawing.Size(100, 20);
@@ -136,7 +137,7 @@
             // 
             // textBoxEmail
             // 
-            this.textBoxEmail.BackColor = System.Drawing.Color.Gainsboro;
+            this.textBoxEmail.BackColor = System.Drawing.Color.White;
             this.textBoxEmail.Location = new System.Drawing.Point(308, 342);
             this.textBoxEmail.Name = "textBoxEmail";
             this.textBoxEmail.Size = new System.Drawing.Size(100, 20);
@@ -144,7 +145,7 @@
             // 
             // textBoxTelefone
             // 
-            this.textBoxTelefone.BackColor = System.Drawing.Color.Gainsboro;
+            this.textBoxTelefone.BackColor = System.Drawing.Color.White;
             this.textBoxTelefone.Location = new System.Drawing.Point(175, 342);
             this.textBoxTelefone.Name = "textBoxTelefone";
             this.textBoxTelefone.Size = new System.Drawing.Size(100, 20);
@@ -152,7 +153,7 @@
             // 
             // textBoxNome
             // 
-            this.textBoxNome.BackColor = System.Drawing.Color.Gainsboro;
+            this.textBoxNome.BackColor = System.Drawing.Color.White;
             this.textBoxNome.Location = new System.Drawing.Point(38, 342);
             this.textBoxNome.Name = "textBoxNome";
             this.textBoxNome.Size = new System.Drawing.Size(100, 20);
@@ -206,18 +207,18 @@
             this.buttonConfirmUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonConfirmUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonConfirmUpdate.ForeColor = System.Drawing.Color.White;
-            this.buttonConfirmUpdate.Location = new System.Drawing.Point(24, 253);
+            this.buttonConfirmUpdate.Location = new System.Drawing.Point(211, 256);
             this.buttonConfirmUpdate.Name = "buttonConfirmUpdate";
             this.buttonConfirmUpdate.Size = new System.Drawing.Size(128, 39);
             this.buttonConfirmUpdate.TabIndex = 40;
-            this.buttonConfirmUpdate.Text = "Editar";
+            this.buttonConfirmUpdate.Text = "Confirmar";
             this.buttonConfirmUpdate.UseVisualStyleBackColor = false;
             this.buttonConfirmUpdate.Click += new System.EventHandler(this.buttonConfirmUpdate_Click);
             // 
             // labelId
             // 
             this.labelId.AutoSize = true;
-            this.labelId.Location = new System.Drawing.Point(415, 282);
+            this.labelId.Location = new System.Drawing.Point(423, 282);
             this.labelId.Name = "labelId";
             this.labelId.Size = new System.Drawing.Size(19, 13);
             this.labelId.TabIndex = 41;
