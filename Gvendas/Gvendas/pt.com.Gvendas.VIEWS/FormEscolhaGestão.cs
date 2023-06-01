@@ -18,22 +18,6 @@ namespace Gvendas.pt.com.Gvendas.VIEWS
             form.ShowDialog();
              
         }
-        private void buttonFuncionarios_Click(object sender, EventArgs e)
-        {
-
-            FormFuncionarios form = new FormFuncionarios(2);
-
-            form.ShowDialog();
-             
-
-        }
-
-        private void buttonFornecedores_Click_1(object sender, EventArgs e)
-        {
-            FormFornecedores form = new FormFornecedores();
-            form.ShowDialog();
-             
-        }
 
         private void buttonHome_Click(object sender, EventArgs e)
         {
