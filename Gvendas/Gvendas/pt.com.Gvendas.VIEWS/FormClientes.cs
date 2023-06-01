@@ -90,29 +90,6 @@ namespace Gvendas
             }
         }
 
-        // Botões side menu
-
-        private void buttonFuncionarios_Click(object sender, EventArgs e)
-        {
-
-            pt.com.Gvendas.VIEWS.FormFuncionarios form = new pt.com.Gvendas.VIEWS.FormFuncionarios(2);
-
-            form.ShowDialog();
-
-        }
-
-        private void buttonFornecedores_Click(object sender, EventArgs e)
-        {
-            pt.com.Gvendas.VIEWS.FormFornecedores form = new pt.com.Gvendas.VIEWS.FormFornecedores();
-            form.ShowDialog();
-        }
-
-        private void buttonFornecedores_Click_1(object sender, EventArgs e)
-        {
-            pt.com.Gvendas.VIEWS.FormFornecedores form = new pt.com.Gvendas.VIEWS.FormFornecedores();
-            form.ShowDialog();
-        }
-
         private void homebutton_Click(object sender, EventArgs e)
         {
                 FormHome form = new FormHome();
